@@ -1,0 +1,1 @@
+x = `ls -al | grep '^d' | wc -l` ; if [ $x == 2 ] ; then echo "Requirement met" ; else echo $x ; fi
