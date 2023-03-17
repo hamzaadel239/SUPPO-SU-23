@@ -1,0 +1,1 @@
+while [ true ]; do read f; for x in `ls`; do if [ $f == $x ]; then break 2; fi; done; done; 
