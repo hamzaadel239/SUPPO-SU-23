@@ -1,0 +1,1 @@
+read u; read -s p; [[ $u == "support" && ${#p} -ge 8 ]] && $ echo valid
