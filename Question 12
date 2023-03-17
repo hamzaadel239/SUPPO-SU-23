@@ -1,0 +1,1 @@
+while  [ true ]; do read f; (( "$f" < 31 && "$f" > 19 )) && break; done;
